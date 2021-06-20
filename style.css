@@ -1,11 +1,13 @@
 .bar{
     background-color: grey;
 }
+
 .container{
     margin:80px auto;
     width: fit-content;
     height: auto;
 }
+
 .fa {
     margin-top: 15px;
     font-size: 40px;
@@ -22,6 +24,7 @@
     flex-flow: row;
     justify-content: center;
 }
+
 .static{
     text-align: center;
     height: 50px;
@@ -29,10 +32,116 @@
     border: 1px solid rgb(105, 105, 233);
     border-radius: 25px;
 }
+
 .play-cont{
     text-align: center;
     height: 70px;
     width: 140px;
     border: 1px solid rgb(105, 105, 233);
     border-radius: 35px;
+}
+
+#tag-introduction, #tag-one-sixth, #tag-empathy, #tag-energy, #tag-polite, #tag-empty{
+    position: absolute;
+}
+
+#tag-introduction{
+    margin-top:-19%; 
+    margin-left:5%;
+}
+
+#tag-one-sixth{
+    margin-top:-20%; 
+    margin-left:14%;
+}
+
+#tag-empathy{
+    margin-top: -20.2%;
+    margin-left: 78%;
+}
+
+#tag-energy{
+    margin-top: -17.8%;
+    margin-left: 76%;
+}
+
+#tag-polite{
+    margin-top: -15.7%;
+    margin-left: 75.2%;
+}
+
+#tag-empty{
+    margin-top: -19%;
+    margin-left: 70%;
+}
+
+.tag-one-sixth, .tag-introduction, .tag-empathy, .tag-energy, .tag-polite{
+    height:20px;
+    padding:5px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+}
+
+.tag-one-sixth{
+    width:fit-content;
+    margin-left:59%;
+    background-color: green; 
+}
+
+.tag-introduction{
+    width:fit-content;
+    background-color: #00ff99;   
+}
+ 
+.tag-empathy{
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 185px;
+    background-color: rgb(0, 70, 128);
+}
+
+.tag-energy{
+    border-radius: 10px;
+    width: 175px;
+    margin-left: 20px;
+    background-color:  rgb(170, 7, 42);
+}
+
+.tag-polite{
+    border-radius: 10px;
+    width: 40px;
+    background-color: indigo;
+    margin-left: 150px;
+}
+
+.dot, .one-sixth-dot, .energy-dot, .empathy-dot, .polite-dot, .empty-dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:-10px;
+}
+
+.dot {
+  background-color: #00ff99;
+}
+
+.one-sixth-dot{
+    background-color: green;
+}
+
+.empathy-dot{
+    background-color: rgb(0, 70, 128);
+}
+
+.energy-dot{
+    background-color:  rgb(170, 7, 42);
+}
+
+.polite-dot{
+    background-color: indigo;
+}
+
+.empty-dot{
+    background-color: cyan;
 }
