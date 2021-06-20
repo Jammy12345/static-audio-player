@@ -13,7 +13,7 @@
     font-size: 40px;
     cursor: pointer;
     user-select: none;
-    color: rgb(105, 105, 233);
+    color: cyan;
 }
   
 .btn-cont{
@@ -29,7 +29,7 @@
     text-align: center;
     height: 50px;
     width: 100px;
-    border: 1px solid rgb(105, 105, 233);
+    border: 1px solid cyan;
     border-radius: 25px;
 }
 
@@ -37,7 +37,7 @@
     text-align: center;
     height: 70px;
     width: 140px;
-    border: 1px solid rgb(105, 105, 233);
+    border: 1px solid cyan;
     border-radius: 35px;
 }
 
